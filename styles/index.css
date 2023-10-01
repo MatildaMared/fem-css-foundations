@@ -1,20 +1,20 @@
-@font-face {
-  font-family: Inter;
-  src: url("../fonts/Inter-Regular.ttf");
+@import "./base.css";
+
+.main {
+  padding: 150px;
 }
 
-@font-face {
-  font-family: InterBold;
-  src: url("../fonts/Inter-Bold.ttf");
+.main__heading {
+  font-size: 128px;
+  font-weight: bold;
 }
 
-body {
-	background-color: #ff7b54;
-	color: #fff;
-  font-family: "Inter", sans-serif;
+.main__sub-heading {
+  font-size: 40px;
 }
 
-a {
-  color: inherit;
-  text-decoration: inherit;
+.button-container {
+  display: flex;
+  gap: 36px;
+  margin-top: 100px;
 }
